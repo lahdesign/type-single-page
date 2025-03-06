@@ -12,7 +12,8 @@
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
-    width: min(100% - 3rem, 80ch);
+    /* where to change the width of the columns on desktop view */
+    width: min(100% - 3rem, 90ch);
     margin-inline: auto;
 }
 /* how the page wrapper appears on desktop */
@@ -24,25 +25,27 @@ grid-gap: 25px;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: auto;
 grid-template-areas: 
-    "h v"
+    "v h"
     "a a";
 }
 
-.history {
+#history {
 grid-area: h;
+background-color: lightcoral;
 }
 
-.variations{
+#variations{
 grid-area: v;
 }
 
-.alphabet {
+#alphabet {
 grid-area: a;
 }
 }
 /* CSS for the footer */
 footer{
-    background-color: gray;
+    background-color: rgb(138, 21, 21);
+    height:200px
 }
 
 /* variable font animation */
