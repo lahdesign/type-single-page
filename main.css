@@ -7,13 +7,13 @@
     }
     
     body{
-    background-color: lightsteelblue;
+    background-color: pink;
     font-family: 'Forma';
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
     /* where to change the width of the columns on desktop view */
-    width: min(100% - 3rem, 90ch);
+    width: min(100% - 3rem, 95ch);
     margin-inline: auto;
 }
 /* how the page wrapper appears on desktop */
@@ -45,10 +45,15 @@ grid-area: a;
 /* CSS for the footer */
 footer{
     background-color: rgb(138, 21, 21);
-    height:200px
+    height:200px;
 }
 
-/* variable font animation */
+/* font styling area */
+h2{
+    color: firebrick;
+    font-variation-settings: "opsz" 16, "wght" 900, "slnt" -8;
+}
+
 h3{
     font-weight:20; 
     text-align: center;
