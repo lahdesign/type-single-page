@@ -67,8 +67,36 @@ h3{
     }
     50%{font-variation-settings: "opsz" 16, "wght" 900, "slnt" -13;
     }
-    
 }
+/* animations for the variations section */
+.weight{
+    animation: weightVariations 5s infinite;
+}
+@keyframes weightVariations {
+    0%, 100%{
+        font-variation-settings: "opsz" 16, "wght" 200, "slnt" 0;
+    }
+    50%{font-variation-settings: "opsz" 16, "wght" 900, "slnt" 0;
+    }
+}
+/* where the animation is for the width change */
+.width{
+    animation: widthVariations 5s infinite;
+}
+@keyframes widthVariations {
+    0%, 100%{
+        font-variation-settings: "opsz" 16, "wght" 200, "slnt" 0;
+    }
+    50%{font-variation-settings: "opsz" 16, "wght" 900, "slnt" 0;
+    }
+}
+
+h5{
+    font-size:40px;
+    color:blue;
+    margin:15px;
+}
+
 /* variable font that changes on hover */
 .variable-font{
     font-weight:1 ;
