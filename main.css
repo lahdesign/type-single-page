@@ -42,6 +42,12 @@ grid-area: v;
 grid-area: a;
 }
 }
+
+/* axes container */
+.axes-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 /* CSS for the footer */
 footer{
     background-color: rgb(138, 21, 21);
